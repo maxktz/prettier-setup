@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "lint": "prettier --write ."
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.1",
+    "prettier": "^3.4.2"
+  }
+}
