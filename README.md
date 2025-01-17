@@ -2,18 +2,22 @@
 
 I usually add use it, in small projects without Eslint
 
-## Install Pretiier and Plugins
+## Installation
 
-```sh
-bun i -D prettier @trivago/prettier-plugin-sort-imports
-```
+1. Install Pretiier and Plugins
 
-## Package.json
+    ```sh
+    bun i -D prettier @trivago/prettier-plugin-sort-imports
+    ```
 
-```json
-{
-  "scripts": {
-    "lint": "prettier --write ."
-  }
-}
-```
+2. Copy `.prettierrc` file
+
+3. Add lint script to `package.json`
+
+    ```json
+    {
+      "scripts": {
+        "lint": "prettier --write ."
+      }
+    }
+    ```
